@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Autodidacte</title>
+
+   <!-- font awesome  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- fichier css  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- Début de la section header  -->
+
+<header class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> Autodidacte </a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="home.html">Accueil</a>
+      <a href="about.html">A propos</a>
+      <a href="courses.html">cours</a>
+      <a href="contact.html">contact</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- début de la section account form  -->
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">Connexion</span>
+      <span class="btn register-btn">S'enregistrer</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>Se connecter</h3>
+      <input type="email" placeholder="entrer votre email" class="box">
+      <input type="password" placeholder="entrer votre mot de passe" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">Se souvenir</label>
+         <a href="#">Mot de passe oublié?</a>
+      </div>
+      <input type="submit" value="Se connecter" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>S'enregistrer</h3>
+      <input type="email" placeholder="entrer votre email" class="box">
+      <input type="password" placeholder="entrer votre mot de passe" class="box">
+      <input type="password" placeholder="confirmer votre mot de passe" class="box">
+      <input type="submit" value="S'enregistrer" class="btn">
+   </form>
+
+</div>
+
+<!-- fin de la section account form -->
+
+<!-- fin de la section header -->
+
+<!-- début de la section home  -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>Les meilleurs cours du moment se trouve ici !</h3>
+               <p>Nous avons rassemblé sur notre plateforme les cours des plus grands enseignants de notre temps dans des domaines porteurs et très demandés</p>
+               <a href="#" class="btn">Commencer</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>Les meilleurs cours du moment se trouve ici !</h3>
+               <p>Nous avons rassemblé sur notre plateforme les cours des plus grands enseignants de notre temps dans des domaines porteurs et très demandés</p>
+               <a href="#" class="btn">Commencer</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>Les meilleurs cours du moment se trouve ici !</h3>
+               <p>Nous avons rassemblé sur notre plateforme les cours des plus grands enseignants de notre temps dans des domaines porteurs et très demandés</p>
+               <a href="#" class="btn">Commencer</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- fin de la section home -->
+
+<!-- début de la section subjects  -->
+
+<section class="subjects">
+
+   <h1 class="heading">Nos thématiques populaires</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/subject-icon-1.png" alt="">
+         <h3>Designer</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-2.png" alt="">
+         <h3>Mathématiques</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-3.png" alt="">
+         <h3>Enseignement</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-4.png" alt="">
+         <h3>développement</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-5.png" alt="">
+         <h3>science</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-6.png" alt="">
+         <h3>Ingénierie</h3>
+         <p>12 modules</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- fin de la section subjects -->
+
+<!-- début de la section home courses  -->
+
+<section class="home-courses">
+
+   <h1 class="heading"> Nos cours populaires </h1>
+
+   <div class="swiper home-courses-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-1.png" alt="">
+               <h3>Développement web</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Apprenez à transformez des maquettes graphiques en sites webs fonctionnels et ergonomiques</p>
+               <a href="#" class="btn">Voir plus</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-2.png" alt="">
+               <h3>Data analyst</h3>
+            </div>
+            <div class="content">
+               <h3>Data analyst</h3>
+               <p>Apprenez à explorer, analyser et exploiter des données pour aider à la prise de décision en entreprise</p>
+               <a href="#" class="btn">Voir plus</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-3.png" alt="">
+               <h3>Ingénieur IA</h3>
+            </div>
+            <div class="content">
+               <h3>Ingénieur IA</h3>
+               <p>Apprenez à développer des produits IA en utilisant des techniques de Data Science</p>
+               <a href="#" class="btn">Voir plus</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-4.png" alt="">
+               <h3>Développeur mobile</h3>
+            </div>
+            <div class="content">
+               <h3>Développeur mobile</h3>
+               <p>Apprenez à développer des applications mobiles hybrides avec React Native</p>
+               <a href="#" class="btn">Voir plus</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-5.png" alt="">
+               <h3>Product manager</h3>
+            </div>
+            <div class="content">
+               <h3>Product manager</h3>
+               <p>Apprenez à piloter des projets de grandes envergures avec notre formation sur mesure</p>
+               <a href="#" class="btn">Voir plus</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-6.png" alt="">
+               <h3>Brand manager</h3>
+            </div>
+            <div class="content">
+               <h3>Brand manager</h3>
+               <p>Devenez expert en identité de marque, maîtrisez les canaux de communication pour augmenter la notoriété !</p>
+               <a href="#" class="btn">Voir plus</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- fin de la section home courses -->
+
+
+
+
+
+
+
+
+
+<!-- début de la section footer  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3> <i class="fas fa-lightbulb"></i> Autodidacte </h3>
+         <p>Le site où vous pouvez tout apprendre en faisant preuve de courage et de persévérence</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>Menu</h3>
+         <a href="home.html" class="link">Accueil</a>
+         <a href="about.html" class="link">A propos</a>
+         <a href="courses.html" class="link">cours</a>
+         <a href="contact.html" class="link">contact</a>
+      </div>
+
+      <div class="box">
+         <h3>Liens utiles</h3>
+         <a href="#" class="link">Besoin d'aide</a>
+         <a href="#" class="link">Poser une question</a>
+         <a href="#" class="link">Donner son avis</a>
+         <a href="#" class="link">Mentions légales</a>
+         <a href="#" class="link">RGPD</a>
+      </div>
+
+      <div class="box">
+         <h3>newsletter</h3>
+         <p>Inscrivez-vous pour ne rien manquer de notre actualité</p>
+         <form action="">
+            <input type="email" name="" placeholder="Entrer votre email" id="" class="email">
+            <input type="submit" value="S'abonner" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit"> créé par <span>AUGUSTE-VIRGINIE Flavien</span> | Tous droits réservés! </div>
+
+</section>
+
+<!-- fin de la section footer -->
+
+
+
+
+
+
+
+<!-- swiper js -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- fichier js -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
